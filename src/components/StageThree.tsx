@@ -7,10 +7,10 @@ const StageThree = () => {
     { stage: "관계맺기", code: "Relate", sessions: "1–3", subject: "국어", activity: "환경영화 감상 → 감상문 작성 → 감상 공유 및 주제 연결", achievement: "[6국03-02]", color: "primary" },
     { stage: "집중하기", code: "Focus", sessions: "4–5", subject: "사회", activity: "지구촌 환경 문제의 유형 및 지속가능성 개념 탐색", achievement: "[6사08-05]", color: "secondary" },
     { stage: "조사하기", code: "Investigate", sessions: "6–8", subject: "사회", activity: "환경 문제 조사 및 지도 제작, 자료 분석, 토의", achievement: "[6사08-05]", color: "accent" },
-    { stage: "일반화하기", code: "Generalize", sessions: "9–10", subject: "사회", activity: "'지속가능한 미래 선언문' 작성 및 발표(공개수업)", achievement: "[6사08-05]", color: "primary", highlight: true },
+    { stage: "일반화하기", code: "Generalize", sessions: "9–10", subject: "사회", activity: "'우리의 지속가능한 미래 선언문' 작성 및 발표(공개수업)", achievement: "[6사08-05]", color: "primary", highlight: true },
     { stage: "집중·조사·조직", code: "Multiple", sessions: "11–15", subject: "국어", activity: "캠페인 영상 사례 분석 → 대본 작성 → 발표 구성", achievement: "[6국01-05]", color: "secondary" },
     { stage: "전이하기", code: "Transfer", sessions: "16–18", subject: "미술", activity: "영상 제작(공익광고, 브이로그 등) 및 상영회", achievement: "[6미02-05], [6국01-05]", color: "accent" },
-    { stage: "성찰하기", code: "Reflect", sessions: "19", subject: "사회", activity: "'나의 지속가능한 실천 선언문' 쓰기", achievement: "[6사08-05]", color: "primary" }
+    { stage: "성찰하기", code: "Reflect", sessions: "19", subject: "사회", activity: "'6개월 후 나에게 보내는 편지' 쓰기 (개인 실천 다짐)", achievement: "[6사08-05]", color: "primary" }
   ];
 
   return (
@@ -80,7 +80,7 @@ const StageThree = () => {
               설계의 핵심
             </h4>
             <div className="space-y-2 text-sm text-muted-foreground leading-relaxed">
-              <p>학생이 <strong className="text-foreground">지속가능성과 책임의 개념을 탐구</strong>하고, 그 이해를 <strong className="text-foreground">매체와 예술로 표현</strong>하며, 마지막에는 <strong className="text-foreground">공동체 실천으로 확장</strong>하는 전이 중심 프로젝트</p>
+              <p>학생이 <strong className="text-foreground">지속가능성과 책임의 개념을 탐구</strong>하고, 그 이해를 <strong className="text-foreground">매체와 예술로 표현</strong>하며, <strong className="text-foreground">공동체 차원의 선언</strong>과 <strong className="text-foreground">개인 차원의 실천 다짐</strong>으로 마무리하는 전이 중심 프로젝트</p>
               <p className="mt-3">평가는 단순한 결과물이 아니라, 개념의 이해 → 탐구의 깊이 → 표현의 설득력 → 실천의 진정성이라는 <strong className="text-secondary">학습자의 성장 궤적</strong>을 본질적으로 드러내는 도구로 작동합니다.</p>
             </div>
           </Card>
