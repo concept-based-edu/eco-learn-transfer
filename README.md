@@ -1,58 +1,16 @@
-# Welcome to your Lovable project
+# 이해중심 교육과정 설계 (UbD Framework)
 
-## Project info
+Understanding by Design 기반 프로젝트 학습 설계 도구
 
-**URL**: https://lovable.dev/projects/ce9b6992-aecf-46f6-8e06-e259b8dbbf73
+## 프로젝트 소개
 
-## How can I edit this code?
+이 프로젝트는 **이해중심 교육과정 설계(Understanding by Design, UbD)** 프레임워크를 활용한 교육 프로젝트 웹 애플리케이션입니다.
 
-There are several ways of editing your application.
+**주제**: 지속가능한 미래를 위한 책임 있는 시민성 교육  
+**대상**: 초등학교 6학년  
+**핵심 개념**: 환경 지속가능성, 책임, 시민성
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/ce9b6992-aecf-46f6-8e06-e259b8dbbf73) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
+## 기술 스택
 
 - Vite
 - TypeScript
@@ -60,14 +18,53 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## 설치 및 실행
 
-Simply open [Lovable](https://lovable.dev/projects/ce9b6992-aecf-46f6-8e06-e259b8dbbf73) and click on Share -> Publish.
+### 요구사항
 
-## Can I connect a custom domain to my Lovable project?
+Node.js & npm이 설치되어 있어야 합니다. [nvm으로 설치하기](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Yes, you can!
+### 설치
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```sh
+# 저장소 클론
+git clone https://github.com/plusiam/eco-learn-transfer.git
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# 프로젝트 디렉토리로 이동
+cd eco-learn-transfer
+
+# 의존성 설치
+npm install
+
+# 개발 서버 실행
+npm run dev
+```
+
+개발 서버는 `http://localhost:8080`에서 실행됩니다.
+
+## 빌드
+
+```sh
+npm run build
+```
+
+빌드된 파일은 `dist` 폴더에 생성됩니다.
+
+## UbD 3단계 설계 프로세스
+
+### 1단계: 목표 (Desired Results)
+- 핵심 질문
+- 일반화 문장
+- 학생이 이해해야 할 것
+- 학생이 할 수 있어야 하는 일
+- 성취기준 정렬
+
+### 2단계: 평가 (Assessment Evidence)
+- 이해의 증거 수집 방법
+
+### 3단계: 학습 경험 (Learning Plan)
+- 교수학습 계획 및 활동
+
+## 라이선스
+
+MIT
